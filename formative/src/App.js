@@ -1,24 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import ArtistPage from './components/ArtistPage';
+import ArtistsHome from './components/ArtistsHome'
 
 function App() {
   return (
-    <div className="App">
-      <ArtistPage />
-      <header className="App-header">
-      
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>React App</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='AppWrap'>
+    <ArtistsHome/>
     </div>
   );
 }

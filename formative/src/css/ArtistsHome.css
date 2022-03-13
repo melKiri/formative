@@ -1,0 +1,314 @@
+/* ========================banner style =======================================*/
+.banner-bg {
+  height: 155px;
+  /* UI Properties */
+  background: #fafafa 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.banner-word {
+  text-transform: uppercase;
+  padding: 36px 0 0 136px;
+  margin: 0px;
+  /* font: normal normal medium 43px/52px Helvetica Neue; */
+  color: #030303;
+  font-size: 43px;
+  text-align: left;
+  font: normal normal 200 43px/50px Helvetica Neue;
+  letter-spacing: 5.76px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+/* ======================== nav style  === =============================================*/
+.navTopSection {
+  width: 755px;
+  height: 18px;
+  /* UI Properties */
+  background: #ececec 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0 auto;
+  margin-top: 6px;
+  border-radius: 10px 10px 0 0;
+}
+.navListSection {
+  /* width: 690px; */
+  height: 40px;
+  margin: 0px auto;
+  background: white;
+  display: flex;
+  /* justify-content: space-around; */
+}
+ul {
+  display: flex;
+  gap: 5px;
+  font: normal normal normal 11px/13px Helvetica;
+  letter-spacing: 0px;
+  color: #515151;
+  list-style: none;
+}
+img {
+  width: 25px;
+  margin-top: 7px;
+}
+.logored {
+  width: 46px;
+  height: 46px;
+  background-color: #b50a37;
+  margin-left: 56px;
+  color: white;
+  text-align: right;
+  font: normal normal bold 12px/15px Helvetica Neue;
+  letter-spacing: 0px;
+  line-height: 64px;
+  padding-right: 3px;
+}
+.bold {
+  font-weight: bold;
+}
+li {
+  /* background-color: gold; */
+  color: #050505;
+  height: 20px;
+}
+li:hover {
+  border-bottom: #050505 solid 2px;
+}
+a {
+  text-decoration: none;
+  color: #727171;
+}
+a:hover {
+  /* text-decoration: underline; */
+  color: #050505;
+  /* font-weight: bold; */
+}
+
+/* ========================search style ================================================*/
+
+.search-bg {
+  height: 104px;
+  /* UI Properties */
+  background: #fafafa 0% 0% no-repeat padding-box;
+  /* background: #09f33062 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+.search-section {
+  /* background-color: #b50a37; */
+  display: flex;
+  justify-content: left;
+  padding: 25px 0 0 136px;
+}
+.search-term {
+  outline-style: none;
+  border-style: none;
+  width: 366px;
+  height: 22px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  /* border: 1px solid #707070; */
+  border-bottom: 1px solid #707070;
+  opacity: 0.24;
+}
+
+select {
+  border: 1px solid #64646463;
+  opacity: 0.6;
+  outline: none;
+}
+
+.search-btn {
+  /* position: absolute;
+  right: 0; */
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  outline-style: none;
+  border-style: none;
+  padding: 0;
+  /* border-bottom: 1px solid #707070; */
+  opacity: 0.24;
+}
+.search-btn:hover {
+  cursor: pointer;
+}
+.hotTerm ul {
+  padding: 2px 0 0 136px;
+}
+.hotTerm ul li {
+  height: 16px;
+  border: #aaa8a8 solid 1px;
+  border-radius: 15px;
+  padding: 0px 6px;
+  background-color: #ffffff;
+}
+.hotTerm ul li a {
+  font-size: 9px;
+  color: #868080;
+  line-height: 16px;
+  /* background-color: yellowgreen; */
+}
+.hotTerm ul li a:hover {
+  color: #1d1d1d;
+}
+
+/* ========================listing style ================================================*/
+
+.listSection {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background-color: white;
+}
+
+.blackLine {
+  color: transparent;
+  margin: 16px auto;
+  width: 96%;
+  height: 5px;
+  background-color: black;
+}
+
+.listingWrap {
+  margin-top: 10px;
+  background-color: #fafafa;
+  /* overflow: scroll; */
+  /* margin-bottom: 20px; */
+  padding: 10px 10px 30px 10px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+/* ========================Artist Item style ================================================*/
+.ArtistItemWrap {
+  position: relative;
+  width: 158px;
+  height: 210px;
+}
+.ArtistItemWrap:hover {
+  transform: translateY(5px);
+  cursor: pointer;
+}
+.ArtistCoverImg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.firstName {
+  font: normal normal normal 11px/12px Georgia;
+  letter-spacing: 1.47px;
+  color: white;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+}
+.lastName {
+  font: normal normal normal 21px/24px Georgia;
+  letter-spacing: 2.81px;
+  color: white;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+}
+.ArtistName {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-25px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ========================add Artist style ================================================*/
+.addBtnWrap {
+  width: 158px;
+  height: 210px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px dashed #707070;
+  display: flex;
+}
+.addIcon {
+  margin: auto auto;
+}
+.addIcon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/* ========================Modalstyle =============================*/
+/* Modal-header */
+.modal-90w {
+  min-width: 758px;
+}
+#example-custom-modal-styling-title {
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+.modal-title-name {
+  font: normal normal 200 38px/47px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #0000007c;
+  font-weight: 100;
+  margin-right: 40px;
+}
+
+/* modal-body  */
+.modal-artist-name {
+  /* background-color: PINK; */
+  height: 27px;
+  font: normal normal normal 23px/28px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 18px;
+}
+.modal-more-wrap {
+  border-top: #aaa8a8 solid 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 18px;
+}
+/* left side */
+.modal-artist-pic {
+  /* background-color: green; */
+}
+.modal-artist-pic div {
+  display: flex;
+  width: 334px;
+  height: 242px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  justify-content: center;
+  align-items: center;
+}
+.modal-artist-pic div img {
+  margin: 0;
+  width: 178px;
+  height: 237px;
+}
+.modal-artist-pic P {
+  margin-top: 10px;
+  text-align: left;
+  font: normal normal normal 12px/14px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #00000090;
+  opacity: 1;
+}
+/* right side */
+.modal-artist-more span {
+  color: #0000005d;
+  margin-left: 50px;
+}
+.modal-artist-more p {
+  margin-top: 28px;
+  font: normal normal normal 12px/14px Helvetica Neue;
+  color: #00000090;
+}
