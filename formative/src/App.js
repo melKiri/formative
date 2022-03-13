@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import ArtistPage from './components/ArtistPage';
 
 function App() {
   return (
     <div className="App">
+      <ArtistPage />
       <header className="App-header">
+      
         <img src={logo} className="App-logo" alt="logo" />
         <p>React App</p>
         <a
